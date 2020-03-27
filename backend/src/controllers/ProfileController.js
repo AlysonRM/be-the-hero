@@ -10,6 +10,6 @@ module.exports = {
             .where('ongs_id', ongs_id)
             .select();
 
-        return response.json({incidents});
+        return response.json(incidents);
     }
 };
